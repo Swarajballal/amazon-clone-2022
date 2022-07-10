@@ -1,3 +1,7 @@
+![amazon-clone](https://user-images.githubusercontent.com/86348862/178147813-3994860c-8182-4015-bc0e-4c95cc255f1e.jpg)
+
+https://clone-44045.web.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
