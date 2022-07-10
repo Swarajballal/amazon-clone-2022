@@ -1,0 +1,219 @@
+
+.footer_backTotop
+{
+    height: 50px;
+    width: 100%;
+    background-color: #37475a;
+    color: rgb(235, 235, 235); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+ .Box
+ {
+  padding: 80px 10px;
+  background: #232f3e;
+  bottom: 0;
+  width: 100%;
+  color: whitesmoke;
+ }
+  
+.Container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+   
+ .Column 
+ {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 40px;
+  margin-top: -40px;
+}
+   
+.Row
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 
+                         minmax(185px, 1fr));
+  grid-gap: 20px;
+}
+
+a
+{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+}
+
+a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.Nav__footerLine__container
+{
+  background: #232f3e;
+  bottom: 0;
+  width: 100%;
+  color: whitesmoke;
+  border-top: whitesmoke 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__logo
+{
+    width: 80px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    line-height: normal;
+}
+
+.Nav__footerLine__container
+{
+    padding-bottom: 30px;
+}
+
+.Nav__footerLine__container__line
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.footer__languageicon
+{
+    margin-bottom: 10px;
+}
+
+.footer__countries
+{
+    width: 100%;
+    background-color: #37475a;
+    color: rgb(235, 235, 235); 
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_countires__text > a
+{
+    margin-left: 20px;
+}
+
+.Box2
+{
+    padding: 80px 10px 0px 0px;
+    background: #131a22;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.Container2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: -70px;
+}
+
+.Row2
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 
+                         minmax(185px, 1fr));
+  grid-gap: 20px;
+  grid-column-gap: 10px;
+}
+
+.Column2 
+{
+ display: flex;
+ flex-direction: column;
+ text-align: left;
+ margin-left: 40px;
+ margin-top: -40px;
+}
+
+.Column2 > a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 10px;
+    margin-top: 70px;
+}
+
+.Column2 > a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+.footer__copyright
+{
+    padding: 60px 0px 0px 0px;
+    background: #131a22;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.footer__copyright__text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Column3 
+{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.Row3
+{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 
+                         minmax(185px, 1fr));
+  grid-gap: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.Column3 > a
+{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 12px;
+}
+
+.Column3 > a:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+
