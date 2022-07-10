@@ -5,7 +5,7 @@ const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 
-const stripe = require("stripe")("sk_test_51LIqpaSIm3ABHMx3IP8M7idAG9b4T2tQHuIS4HbepUob3dJSWVKRggWlabEMQu4MlPl8sYfaVrxsJ6fhp2qhYJKj00OUyheKdv");
+const stripe = require("stripe")("enter your secret key");
 
 // API
 
@@ -39,4 +39,4 @@ exports.api = functions.https.onRequest(app);
 
 
 // Example endpoint
-// http://localhost:5001/clone-44045/us-central1/api
+// you will get a end point
